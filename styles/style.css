@@ -76,7 +76,7 @@ body {
     text-decoration: none;
     color: white;
     text-decoration: underline;
-
+    color: blue;
 }
 .project:hover {
     color: darkslategrey;
