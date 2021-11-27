@@ -25,33 +25,23 @@
     font-size: 60px;
     text-decoration: underline;
 }
-.proj-1 {
-    color: white;
-    text-decoration: underline;
-    padding-bottom: 20px;
-}
-.proj-2 {
-    color: white;
-    text-decoration: underline;
-    padding-bottom: 20px;
-}
-.proj-1:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    color: darkblue;
-}
-.proj-2:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    color: darkblue;
-}
 #counter-logo {
     border-radius: 30px;
     border: 2px solid black;
     height: 130px;
 }
+#counter-logo:hover {
+    border-color: red;
+}
 #chatapp-logo {
     border-radius: 30px;
     border: 2px solid black;
     height: 130px;
+}
+#chatapp-logo:hover {
+    border-color: red;
+}
+.subtitle {
+    font-size: 50px;
+    padding-bottom: 50px;
 }
