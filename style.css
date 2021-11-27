@@ -1,0 +1,77 @@
+* {
+    font-family: serif;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    background: linear-gradient(45deg,rgb(53, 49, 90) 15%, rgb(14, 13, 20) 100%);
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+}
+.title-area {
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+}
+.title {
+    font-size: 200px;
+}
+.subtitle {
+    font-size: 50px;
+}
+.info-area {
+    color: white;
+    padding-top: 15px;
+    font-size: 25px;
+}
+.info-area:hover {
+    cursor: pointer;
+}
+.about-me {
+    float: right;
+    padding-right: 75px;
+    color: white;
+}
+.socials {
+    float: right;
+    padding-right: 75px;
+    color: white;
+}
+.projects {
+    float: right;
+    padding-right: 75px;
+    color: white;
+}
+.about-me:hover {
+    cursor: pointer;
+    color: darkslategray;
+}
+.socials:hover {
+    cursor: pointer;
+    color: darkslategray;
+}
+.projects:hover {
+    cursor: pointer;
+    color: darkslategray;
+}
+.discord-area {
+    font-size: 25px;
+    padding-left: 20px;
+    color: white;
+}
+.my-pfp {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid black;
+    float: left;
+}
+.my-discord {
+    padding-top: 8px;
+    float: left;
+    padding-left: 15px;
+}
