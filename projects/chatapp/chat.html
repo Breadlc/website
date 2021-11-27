@@ -12,11 +12,13 @@
 			}
 		
 			.header-area {
-				height: 6%;
-				background: rgb(0 127 255);
+				height: 7%;
+				background: linear-gradient(0deg,rgb(236, 36, 36) 15%, rgb(255, 108, 23) 100%);
 				box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
 				color: white;
 				padding: 4px;
+				font-size: 25px;
+				
 			}
 			
 			.message-area {
@@ -41,7 +43,7 @@
 			.send-button {
 				border: 0;
 				width: 9%;
-				background: rgb(0 127 255);
+				background: rgb(0, 127, 255);
 				color: white;
 				padding: 8px;
 				font-size: 18px;
@@ -85,13 +87,17 @@
 				float: left;
 			}
 		
+			#header-title {
+				padding-left: 20px;
+				padding-top: 6px;
+			}
 		</style>
 	</head>
 	
 	<body>
 	
 		<div class="header-area">
-			<h1> Chatapp </h1>
+			<h1 id="header-title"> Chatapp </h1>
 		</div>
 		
 		<div class="message-area" id="message-area">
