@@ -75,3 +75,12 @@
     float: left;
     padding-left: 15px;
 }
+.copy {
+    font-size: 22px;
+    color: white;
+    float: left;
+    padding-left: 20px;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5px;
+}
