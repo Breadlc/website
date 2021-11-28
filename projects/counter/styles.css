@@ -17,7 +17,7 @@ html {
     height: 100%;
 }
 .title {
-    padding-top: 20px;
+    padding-top: 75px;
     font-size: 150px;
     color: white;
 }
@@ -35,7 +35,7 @@ html {
     cursor: pointer;
 }
 #count-el {
-    padding: 50px;
+    padding: 25px;
     font-size: 120px;
     color: white;
 }
@@ -70,4 +70,12 @@ html {
 }
 #addNum-btn:hover {
     background-color: rgb(41, 168, 241);
+}
+#clicker-plug {
+}
+.inspiration {
+    float: left;
+    padding-left: 25px;
+    color: white;
+    padding-top: 25px;
 }
