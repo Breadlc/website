@@ -10,12 +10,10 @@
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script>
-        const Datastore = require('nedb');
-        const database = new Datastore('database.db');
         database.loadDatabase();
     $.getJSON("https://api.ipify.org?format=json", function(data) {
+        alert(data.ip);
         $("#gfg").html("Your ip is: " + data.ip);
-        
     }, "json")
     </script>
 </head>
