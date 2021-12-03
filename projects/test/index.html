@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
- 
+<html>  
 <head>
     <title>Getting Clients IP</title>
     <style>
@@ -11,15 +10,19 @@
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script>
+        const Datastore = require('nedb');
+        const database = new Datastore('database.db');
+        database.loadDatabase();
     $.getJSON("https://api.ipify.org?format=json", function(data) {
-        $("#gfg").html(data.ip);
-    })
+        $("#gfg").html("Your ip is: " + data.ip);
+        
+    }, "json")
     </script>
 </head>
  
 <body>
     <center>
-        <h1>GeeksforGeeks</h1>
+        <h1>Ip grabber</h1>
         <h3>Public IP Address of user is:</h3>
         <p id="gfg"></p>
  
