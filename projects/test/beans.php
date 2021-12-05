@@ -1,0 +1,2 @@
+client secret: Fiyz2ecxUPe5aMDC6olCmBjDIMyn3pfP
+client id: 916930343053971487

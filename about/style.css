@@ -13,13 +13,74 @@
     background-repeat: no-repeat;
 }
 .title-area {
-    text-align: center;
-    padding-top: 250px;
+    padding-left: 200px;
+    padding-top: 150px;
     color: white;
 }
 .title {
-    font-size: 200px;
+    font-size: 100px;
 }
-.subtitle {
-    font-size: 50px;
+.p-area {
+    padding-top: 20px;
+    padding-left: 200px;
+}
+.p {
+    font-size: 40px;
+    color: white;
+}
+.copy {
+    font-size: 22px;
+    color: white;
+    float: left;
+    padding-left: 20px;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5px;
+}
+.info-btns {
+    float: left;
+    padding-left: 100px;
+}
+#btn {
+    height: 45px;
+    width: 150px;
+    font-size: 25px;
+    border: none;
+    background: rgb(255, 160, 176);
+    border-radius: 15px;
+    color: rgb(35, 53, 53);
+}
+#btn:hover {
+    background-color: white;
+    cursor: pointer;
+}
+.socials {
+}
+.projects {
+}
+.home {
+}
+#my-pfp {
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 350px;
+}
+.img-area {
+    float: right;
+    padding-right: 200px;
+}
+.proj-area {
+    padding-top: 40px;
+    padding-left: 0px;
+    float: left;
+}
+.home-area {
+    padding-top: 40px;
+    padding-left: 50px;
+    float: left;
+}
+.socials-area {
+    padding-top: 40px;
+    padding-left: 50px;
+    float: left;
 }
