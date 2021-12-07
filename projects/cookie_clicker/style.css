@@ -1,0 +1,33 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.cookie-area {
+    padding-top: 175px;
+}
+#add1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    font-size: 50px;
+    border: 2px solid black;
+}
+#add1:hover {
+    cursor: pointer;
+    background-color: rgb(223, 223, 223);
+}
+.reset-area {
+    padding-top: 200px;
+}
+#reset {
+    height: 100px;
+    width: 400px;
+    border-radius: 25px;
+    font-size: 40px;
+    border: 2px solid black;
+}
+#reset:hover {
+    cursor: pointer;
+    background-color: rgb(223, 223, 223);
+}
